@@ -1,0 +1,109 @@
+body{
+    /* background halaman web */
+    background: url(gambar1.jpg);
+    background-size: 150%;
+}
+.wrapper{
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+}
+
+.sidebar{
+    width: 300px;
+    float: left;
+}
+
+.content {
+    width: 800px;
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+#logo {
+    float:left;
+    width: 200px;
+    height: auto;
+    padding: 30px;
+}
+
+#logo img{
+    max-width: 100%;
+    height: auto;
+}
+
+#menu{
+    padding-top: 25px;
+    padding-bottom: 50px;
+    float: right;
+    width: 840px;
+}
+
+#menu li{
+    float:left;
+    list-style: none;
+    margin-left: 0px;
+    margin-right: 50px;
+
+}
+
+#menu li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #34495e;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.blog-content{
+    float: left;
+    max-width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-content img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.recent-article{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.recent-article ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* text-decoration: none; */
+    color: black;
+}
+
+.blog-single{
+    float: left;
+    max-width: 720px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-single img{
+    width: 720px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-box a{
+    text-decoration: none;
+}

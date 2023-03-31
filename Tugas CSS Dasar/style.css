@@ -1,0 +1,37 @@
+#Tabel-siswa{
+    border-collapse: collapse;
+    background: url(gambar3.png);
+    
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+    margin: auto;
+}
+
+#Tabel-siswa h3{
+    font-size: 32px;
+}
+
+#Tabel-siswa td{
+    padding: 20px;
+    text-align: center;
+
+}
+
+img{
+    width: 300px;
+}
+
+.link{
+    color: red;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(gambar0.jpg);
+}
+
+
+

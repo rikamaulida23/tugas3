@@ -1,0 +1,31 @@
+#tabel-biodata{
+    border-collapse: collapse;
+    background: url(gambar3.png);
+    margin: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+#tabel-biodata th {
+    padding: 12px;
+    text-align: left;
+}
+
+#tabel-biodata td{
+    padding: 12px;
+    font-weight: bold;
+}
+
+#tabel-biodata h1 {
+    text-align: center;
+}
+
+#tabel-biodata img {
+    width: 450px;
+    align-items: center;
+}
+
+body{
+    background: url(gambar0.jpg);
+}
